@@ -2,83 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
-    body{
+    body {
       background-color: hsl(47, 88%, 63%);
       text-align: left;
       font-family: "Figtree", sans-serif;
     }
-    .sub1{
+    
+    .sub1 {
       background-color: hsl(47, 88%, 63%);
-      width:100px;
-      border-radius: 5px;
-      height:25px;
-      margin:20px;
-      font-size: 17px;
+      width: 6.25rem;
+      border-radius: 0.3125rem;
+      height: 1.5625rem;
+      margin: 1.25rem;
+      font-size: 1rem;
       text-align: center;
       font-weight: bold;
-      margin-left:1px;
+      margin-inline-start: 1px;
     }
-    .main{
-      background-color: white;
-      width:320px;
-      border-radius: 15px;
-      margin: 50px auto;
-      padding: 20px;
-      height:450px;
-      border:1px black solid;
+    
+    .main {
+      background-color: hsl(0, 0%, 100%);
+      width: 20rem;
+      border-radius: 0.9375rem;
+      margin: 3.125rem auto;
+      padding: 1.25rem;
+      border: 1px black solid;
       box-shadow: 8px 8px 0px 0px black;
-      margin-top: 100px;
+      margin-top: 6.25rem;
     }
-    .sub3{
-      color:hsl(0, 0%, 8%);
-      font-size: 20px;
+    
+    .sub3 {
+      color: hsl(0, 0%, 42%);
+      font-size: 1.25rem; 
       text-align: left;
       font-weight: 800;
     }
+    
     .sub3:hover {
-      color:hsl(47, 88%, 63%);
+      color: hsl(47, 88%, 63%);
     }
-    .sub2{
-      color:hsl(0, 0%, 42%);
+    
+    .sub2 {
+      color: vhsl(0, 0%, 42%);
     }
-    img{
+    
+    img {
       width: 100%;
-      border-radius: 10px;
+      border-radius: 0.625rem;
     }
-    .avatar{
-      width: 32px;
-      height:32px;
+    
+    .avatar {
+      width: 2rem;
+      height: 2rem;
       border-radius: 50%;
     }
+    
     .author-name {
-    font-weight: bold;
-    font-size: 14px;
-    margin-left: 5px;
-  }
-  .sub4{
-  display: flex;
-  align-items: center;
-  gap:3px;
-  margin-top: 30px;
-  }
-
+      font-weight: bold;
+      font-size: 0.875rem; 
+      margin-inline-start: 0.3125rem; 
+    }
+    
+    .sub4 {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      margin-top: 1.875rem;
+    }
   </style>
 </head>
 <body>
 
-  <div class="main">
-
+  <main class="main">
     <img src="./assets/images/illustration-article.svg" alt="image">
     <div class="sub1">Learning</div>
 
@@ -92,7 +97,8 @@
       <img class="avatar" src="./assets/images/image-avatar.webp" alt="Greg Hooper">
       <span class="author-name">Greg Hooper</span>
     </div>
-  </div>
+  </main>
+  
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Mithra Xavier</a>.
