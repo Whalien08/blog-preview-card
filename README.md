@@ -21,7 +21,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add your GitHub repo URL here]
+- Solution URL: [https://github.com/Whalien08/blog-preview-card.git]
 - Live Site URL: [Add your live GitHub Pages URL here]
 
 ## My process
