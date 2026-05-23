@@ -16,13 +16,13 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
+<img width="2838" height="1531" alt="Screenshot 2026-05-23 212049" src="https://github.com/user-attachments/assets/d5ee6a31-21b9-4059-a646-04d257af6973" />
 
-![](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add your GitHub repo URL here]
-- Live Site URL: [Add your live GitHub Pages URL here]
+- Solution URL: [https://github.com/Whalien08/blog-preview-card.git]
+- Live Site URL: [https://whalien08.github.io/blog-preview-card/]
 
 ## My process
 
