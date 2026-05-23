@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(47, 88%, 63%);
+      text-align: left;
+      font-family: "Figtree", sans-serif;
+    }
+    .sub1{
+      background-color: hsl(47, 88%, 63%);
+      width:100px;
+      border-radius: 5px;
+      height:25px;
+      margin:20px;
+      font-size: 17px;
+      text-align: center;
+      font-weight: bold;
+      margin-left:1px;
+    }
+    .main{
+      background-color: white;
+      width:320px;
+      border-radius: 15px;
+      margin: 50px auto;
+      padding: 20px;
+      height:450px;
+      border:1px black solid;
+      box-shadow: 8px 8px 0px 0px black;
+    }
+    .sub3{
+      color:hsl(0, 0%, 8%);
+      font-size: 20px;
+      text-align: left;
+      font-weight: 800;
+    }
+    .sub3:hover {
+      color:hsl(47, 88%, 63%);
+    }
+    .sub2{
+      color:hsl(0, 0%, 42%);
+    }
+    img{
+      width: 100%;
+      border-radius: 10px;
+    }
+    .avatar{
+      width: 32px;
+      height:32px;
+      border-radius: 50%;
+    }
+    .author-name {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .sub4{
+  display: flex;
+  align-items: center;
+  gap:3px;
+  }
+
+  </style>
+</head>
+<body>
+
+  <div class="main">
+
+    <img src="./assets/images/illustration-article.svg" alt="">
+    <div class="sub1">Learning</div>
+
+    <p>Published 21 Dec 2023</p>
+
+    <h1 class="sub3">HTML & CSS foundations</h1>
+
+    <p class="sub2">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    
+    <div class="sub4">
+      <img class="avatar" src="./assets/images/image-avatar.webp" alt="Greg Hooper">
+      <span class="author-name">Greg Hooper</span>
+    </div>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Mithra Xavier</a>.
+  </footer>
+</body>
+</html>
